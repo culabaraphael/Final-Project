@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <!--Title of the webpage-->
+  <h1 class="text">Squid Game</h1>
+
+  <div class="modal">
+    <!-- Modal container for the pop-up -->
+      <div class="modal-content">
+         <!-- Modal title -->
+          <h1 class="title">Red Light Green Light</h1>
+          <!-- Descriptive paragraph for game rules -->
+          <p class="info">
+              Top ball is Player 1, bottom ball is Player 2.
+              Player 1 can press <b>Up Arrow</b> to move player 2 can press <b>w</b> to move.
+              Rules are same as it was in squid game.
+          </p>
+          <!-- Button for starting the game or displaying "loading" -->
+          <button class="start-btn">loading...</button>
+      </div>
+  </div>
+  <!-- Three.js: Library for 3D graphics -->
+  <script src="js/three.min.js"></script>
+  <!-- GLTFLoader: Library for loading 3D models -->
+  <script src="js/GLTFLoader.js"></script>
+  <!-- GSAP: Library for creating animations -->
+  <script src="js/gsap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
